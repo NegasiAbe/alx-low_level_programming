@@ -5,5 +5,4 @@
  strcpy(str , " \"Programming is like building multilingual puzzle");
  puts(str);
  return 0;
-
  }
