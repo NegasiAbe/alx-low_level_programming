@@ -1,15 +1,13 @@
 #include<stdio.h>
 #include<stdlib.h>
  
+
+
 /**
- *
- *  * main - Prints the alphabetic
- *
- *   *
- *
- *    * Return: Always (Success)
- *
- *     */
+ *main - Prints the alphabetic
+ *  
+ * Return: Always (Success)
+ */
 
 int main(void)
 
