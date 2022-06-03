@@ -1,6 +1,5 @@
 #include<stdio.h>
-#include<stdlib.h>
- 
+
 /**
  *main - Prints the alphabetic
  * Return: Always (Success)
