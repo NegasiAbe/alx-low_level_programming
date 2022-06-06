@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
+ * main - Entry point has to be exucted when ever is needed.
  *
  * Return: Always 0 (Success)
  */
