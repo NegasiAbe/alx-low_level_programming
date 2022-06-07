@@ -2,7 +2,7 @@
 
 /**
  *  Main -prints put char
- *  Return :0 if success
+ *  Return : always 0
  */
 int main(void)
 {
