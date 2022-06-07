@@ -1,3 +1,7 @@
+/**
+*times_table -> time table
+*/
+#include "main.h"
 void times_table(void)
 {
 	int x, y, k;
