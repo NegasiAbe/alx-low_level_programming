@@ -2,7 +2,7 @@
 
 /**
  * main -prints put char
- * return : always 0
+ * return: Always 0
  */
 int main(void)
 {
