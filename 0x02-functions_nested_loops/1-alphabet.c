@@ -1,3 +1,6 @@
+/**
+  * print_alphabet -prints the lowercase alphabets
+  */
 #include "main.h"
 
  /**
