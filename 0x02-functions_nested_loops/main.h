@@ -1,4 +1,4 @@
-nt my_putchar(int c)
+nt _putchar(int c)
 
 {
 
