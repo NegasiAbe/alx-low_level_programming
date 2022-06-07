@@ -1,0 +1,13 @@
+#include "main.h""
+
+/**
+ * Main -printd putchar
+ * Return :0 if success
+ */
+int main(void)
+{
+	_putchar("_putchar");
+	_putchar("\n");
+
+	return (0);
+}
