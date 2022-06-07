@@ -1,7 +1,7 @@
 /**
-* print_to_98 - prints to 98
-* @n: the starting point
-*/
+ * print_to_98 - prints to 98
+ * @n: the starting point
+ */
 
 #include <stdio.h>
 #include "main.h"
