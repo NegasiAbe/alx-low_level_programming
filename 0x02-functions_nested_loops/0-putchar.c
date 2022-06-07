@@ -1,23 +1,37 @@
-/**
- * file name putchar
- * done by NA.
- */
+nclude "main.h"
 
-#include "main.h"
+
 
 /**
- * Main -prints char
- * Return : Always 0
- */
+ *
+ *  * Main -prints put char
+ *
+ *   * Return :0 if success
+ *
+ *    */
+
 int main(void)
-{
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
 
-	return (0);
-}
+{
+
+		_putchar('_');
+
+			_putchar('p');
+
+				_putchar('u');
+
+					_putchar('t');
+
+						_putchar('c');
+
+							_putchar('h');
+
+								_putchar('a');
+
+									_putchar('r');
+
+										_putchar('\n');
+
+
+
+											return (0);
