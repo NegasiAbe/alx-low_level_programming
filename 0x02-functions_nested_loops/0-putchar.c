@@ -3,6 +3,7 @@
  * done by NA.
  */
 
+#include<stdio.h>
 #include "main.h"
 
 /**
