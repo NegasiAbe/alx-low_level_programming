@@ -5,9 +5,9 @@
 void print_alphabet_x10(void)
 {
 	int i;
-	int j = 10;
+	int j = 11;
 
-	while (j >=0)
+	while (j >= 0)
 	{
 		for (i = 'a'; i <= 'z'; i++)
 		{
