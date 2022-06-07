@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
-* Main -prints put char
-* Return :0 if success
-*/
+ *  Main -prints put char
+ *  Return :0 if success
+ */
 int main(void)
 {
 	_putchar('_');
