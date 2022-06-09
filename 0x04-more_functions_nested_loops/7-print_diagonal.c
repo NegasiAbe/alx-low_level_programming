@@ -2,6 +2,7 @@
 
 /**
  * print_diagonal -prints a backslash in diagonal
+ * @n: n is an argument for displying the digonal space
  */
 void print_diagonal(int n)
 {
