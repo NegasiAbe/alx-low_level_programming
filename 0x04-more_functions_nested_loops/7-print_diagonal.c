@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagonal -prints a backslash in diagonal 
+ * print_diagonal -prints a backslash in diagonal
  */
 void print_diagonal(void)
 {
@@ -13,8 +13,8 @@ void print_diagonal(void)
 	{
 		for (j = 0; j < i; j++)
 			for (j = 0; j < i; j++)
-			
-			{	
+
+			{
 				_putchar(' ');
 			_putchar(92);
 			_putchar('\n');
