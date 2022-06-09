@@ -4,7 +4,7 @@
  * print_square -prints squre hash
  * @size: size argument
  */
-void print_diagonal(int size)
+void print_square(int size)
 {
 	int i, j;
 
@@ -12,7 +12,7 @@ void print_diagonal(int size)
 		_putchar('\n');
 	else
 	{
-		for(i = 0; i < n; i++)
+		for (i = 0; i < n; i++)
 		{
 			for (j = 0; j < i; j++)
 				_putchar(35);
