@@ -6,6 +6,7 @@
  * but it prints fizz the number is multiple of 3
  * It prints Dizz if the nuber is multiple of 5
  * prints fizzDuzz if it is multipleof 3 and 5
+ * Return: always 0;
  */
 int main(void)
 {
@@ -25,4 +26,5 @@ int main(void)
 			printf(" %d", i);
 	}
 	printf("\n");
+	return (0);
 }
