@@ -7,7 +7,7 @@
  * It prints Dizz if the nuber is multiple of 5
  * prints fizzDuzz if it is multipleof 3 and 5
  */
-void main(void)
+int main(void)
 {
 	int i;
 
