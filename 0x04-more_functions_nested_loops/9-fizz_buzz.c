@@ -8,22 +8,3 @@
  * prints fizzDuzz if it is multipleof 3 and 5
  */
 void main(void)
-{
-    int i;
-    
-    for (i = 1; i <= 100; i++)
-    {
-        if (i%3 == 0; && i%5 != 0)
-            printf("fizz");
-        else if (i%5 == 0; && i%3 != 0)
-            printf("Buzz");
-        else if (i%3 == 0; && i%5 == 0);
-            printf("fizzBuzz");
-        else if (i == 1)
-            printf("%d",i);
-        else
-            printf("%d ", i);
-        printf("\n");
-            
-    }
-}
