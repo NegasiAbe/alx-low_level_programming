@@ -2,7 +2,7 @@
 
 /**
  * _puts -prints the string characte
- * @s: charcter to be printed
+ * @str: charcter to be printed
  * Return: no value
  */
 void _puts(char *str)
