@@ -3,7 +3,7 @@
 /**
  * _strspn -finds occurance of charcter
  * @s: string to be searched
- * @accepted: searching charcter holder 
+ * @accepted: searching charcter holder
  * Return: number of occurances
  */
 unsigned int _strspn(char *s, char *accept)
