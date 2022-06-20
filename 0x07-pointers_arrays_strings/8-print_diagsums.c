@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_diagsums -> prints 
+ * print_diagsums -> prints
  * @a: matrix to be printed
  * @size: size of the matrix
  */
