@@ -11,7 +11,7 @@ unsigned int _strspn(char *s, char *accept)
 	int i = 0, j;
 	unsigned int  counter = 0;
 
-	while (s[i])
+	for (i = 0; s[i]; i++)
 	{
 		for (j = 0; accept[j]; j++)
 		{
@@ -21,8 +21,6 @@ unsigned int _strspn(char *s, char *accept)
 				break;
 			}
 		}
-
-	i++;
 	}
 	return (counter);
 }
