@@ -7,16 +7,24 @@
  */
 int is_prime_number(int n)
 {
-	int i;
-
 	if (n <= 1)
 		return (0);
-	else if (n == 2)
+	return (find_Prim(n, 2));
+}
+
+/**
+ * find_Prim - function that gets if num is 0 or 1
+ *
+ * @num: input number
+ * @i: Counter variable
+ * Return: int
+ */
+
+int find_Prim(int num, int i)
+{
+	if (num == i)
 		return (1);
-	for (i = 2; i < n / 2; i++)
-	{
-		if (n % i == 0)
-			return (0);
-	}
-	return (1);
+	if (num % i == 0)
+		return (0);
+	return (find_Prim(num, i + 1));
 }
