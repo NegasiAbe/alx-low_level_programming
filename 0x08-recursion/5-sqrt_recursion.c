@@ -6,16 +6,31 @@
  * return: square root of the number
  */
 int _sqrt_recursion(int n)
+int _sqrt_recursion(int n)
 {
-	int i;
+	if (n == 0)
+		return (0);
+	if (n == 1)
+		return (1);
+	if (n < 0)
+		return (-1);
+	return (Sqr_root(n, 1));
+}
 
-	for (i = 1; i < n/2; i++)
-	{
-		if (i * i == n)
-			break;			
-		if (i * i > n)
-			return (-1);
-	}
-	return (i);
+/**
+ * getNumSqr - function that gets de num of sqroot
+ *
+ * @num: input number
+ * @i: Counter variable
+ * Return: int
+ */
 
+int Sqr_root(int num, int i)
+{
+	if (num == (i * i))
+		return (i);
+	else if ((i * i) < num)
+		return (Sqr_root(num, i + 1));
+	else
+		return (-1);
 }
