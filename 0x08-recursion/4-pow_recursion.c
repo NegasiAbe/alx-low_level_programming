@@ -8,15 +8,9 @@
  */
 int _pow_recursion(int x, int y)
 {
-	int p = y, b = x, i;
-
-	if (p < 0)
+	if (y < 0)
 		return (-1);
-	if (p == 0)
+	if (y == 0)
 		return (1);
-	for (i = 1; i < y; i++)
-	{
-		x = x * b;
-	}
-	return (x);
+	return (x * _pow_recursion(x, y - 1));
 }
