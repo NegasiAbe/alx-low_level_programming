@@ -7,7 +7,7 @@
  * Return: return an array char
  */
 char *create_array(unsigned int size, char c)
-  {
+{
 	unsigned int index;
 	char *s;
 
