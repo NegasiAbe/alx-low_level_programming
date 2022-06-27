@@ -2,7 +2,7 @@
 #include<stdlib.h>
 
 /**
- * free_grd ->frees up two dimensional greed
+ * free_grid ->frees up two dimensional greed
  * @grid: address of two dimensional array
  * @height: height of the address
  * Returns:  no value
