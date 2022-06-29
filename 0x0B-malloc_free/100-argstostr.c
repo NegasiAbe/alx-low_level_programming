@@ -1,5 +1,7 @@
 #include "main.h"
 #include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
 
 /**
  * argstostr -concatnates argument of my type
