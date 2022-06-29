@@ -5,7 +5,7 @@
 
 /**
  * strtow -> splits string in to two words
- * @str: string argument
+ * @str: The string to be searched.
  * Return: character string
  */
 char **strtow(char *str)
