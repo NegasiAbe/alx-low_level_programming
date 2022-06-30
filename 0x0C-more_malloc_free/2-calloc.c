@@ -20,7 +20,7 @@ int i = 0, len = 0;
 	if (p == NULL)
 		return (NULL);
 
-	while (i < l)
+	while (i < len)
 	{
 		p[i] = 0;
 		i++;
