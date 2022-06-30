@@ -3,8 +3,9 @@
 
 /**
  * _calloc ->memory allocation using calloc
- * @memb: member of members
+ * @nmemb: member of members
  * @size: size of memory
+ * Return:no value
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
 {
