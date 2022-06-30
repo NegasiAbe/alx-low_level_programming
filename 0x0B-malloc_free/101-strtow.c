@@ -10,7 +10,7 @@
  */
 char **strtow(char *str)
 {
-	char *str;
+	//char *str;
 	int arg, byte, index, size = ac;
 
 	if (ac == 0 || av == NULL)
