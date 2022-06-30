@@ -1,18 +1,17 @@
 #include "main.h"
-#include <stddef.h>
-#include <stdlib.h>
-#include <stdio.h>
 
 int word_len(char *str);
 int count_words(char *str);
 char **strtow(char *str);
 
 /**
- * strtow -> splits string in to two words
+ * word_len - Locates the index marking the end of the
+ *            first word contained within a string.
  * @str: The string to be searched.
- * Return: character string
+ *
+ * Return: The index marking the end of the initial word pointed to by str.
  */
-char **strtow(char *str)
+int word_len(char *str)
 {
 	int index = 0, len = 0;
 
