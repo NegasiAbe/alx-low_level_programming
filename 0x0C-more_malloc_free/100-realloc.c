@@ -6,12 +6,12 @@
  * _realloc ->reallocates memory
  * @ptr: pointers
  * @old_size: old size if the memory
- * new-size: new size
+ * @new_size: new size
  * Return: no values
  */
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-  char *nptr;
+	char *nptr;
 	unsigned int i;
 
 	if (new_size == old_size)
