@@ -1,17 +1,18 @@
-#include "main.h"
-#include<stdlib.h>
-#include<stdio.h>
+#include "holberton.h"
+#include <stdlib.h>
+#include <stdio.h>
 
 int find_len(char *str);
 char *create_xarray(int size);
 char *iterate_zeroes(char *str);
 void get_prod(char *prod, char *mult, int digit, int zeroes);
 void add_nums(char *final_prod, char *next_prod, int next_len);
+
 /**
  * find_len - Finds the length of a string.
  * @str: The string to be measured.
  *
- * Return: The length of the string
+ * Return: The length of the string.
  */
 int find_len(char *str)
 {
@@ -22,33 +23,39 @@ int find_len(char *str)
 
 	return (len);
 }
+
 /**
  * create_xarray - Creates an array of chars and initializes it with
  *                 the character 'x'. Adds a terminating null byte.
  * @size: The size of the array to be initialized.
+ *
+ * Description: If there is insufficient space, the
+ *              function exits with a status of 98.
  * Return: A pointer to the array.
  */
 char *create_xarray(int size)
 {
-	char *arr;
+	char *array;
 	int index;
 
 	array = malloc(sizeof(char) * size);
 
-	if (arr == NULL)
+	if (array == NULL)
 		exit(98);
 
 	for (index = 0; index < (size - 1); index++)
-		arr[index] = 'x';
+		array[index] = 'x';
 
 	array[index] = '\0';
 
-	return (arr);
+	return (array);
 }
+
 /**
  * iterate_zeroes - Iterates through a string of numbers containing
- *                  leading zeroes
+ *                  leading zeroes until it hits a non-zero number.
  * @str: The string of numbers to be iterate through.
+ *
  * Return: A pointer to the next non-zero element.
  */
 char *iterate_zeroes(char *str)
@@ -58,6 +65,7 @@ char *iterate_zeroes(char *str)
 
 	return (str);
 }
+
 /**
  * get_digit - Converts a digit character to a corresponding int.
  * @c: The character to be converted.
@@ -78,6 +86,7 @@ int get_digit(char c)
 
 	return (digit);
 }
+
 /**
  * get_prod - Multiplies a string of numbers by a single digit.
  * @prod: The buffer to store the result.
@@ -126,6 +135,13 @@ void get_prod(char *prod, char *mult, int digit, int zeroes)
 	if (tens)
 		*prod = (tens % 10) + '0';
 }
+
+/**
+ * add_nums - Adds the numbers stored in two strings.
+ * @final_prod: The buffer storing the running final product.
+ * @next_prod: The next product to be added.
+ * @next_len: The length of next_prod.
+ */
 void add_nums(char *final_prod, char *next_prod, int next_len)
 {
 	int num, tens = 0;
@@ -161,6 +177,16 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 	if (tens)
 		*final_prod = (tens % 10) + '0';
 }
+
+/**
+ * main - Multiplies two positive numbers.
+ * @argv: The number of arguments passed to the program.
+ * @argc: An array of pointers to the arguments.
+ *
+ * Description: If the number of arguments is incorrect or one number
+ *              contains non-digits, the function exits with a status of 98.
+ * Return: Always 0.
+ */
 int main(int argc, char *argv[])
 {
 	char *final_prod, *next_prod;
