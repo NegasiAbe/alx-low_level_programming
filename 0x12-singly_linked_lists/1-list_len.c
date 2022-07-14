@@ -1,6 +1,4 @@
-a#include "lists.h"
-
-
+#include "lists.h"
 
 /**
  * list_len - Finds the number of elements in
